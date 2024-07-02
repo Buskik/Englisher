@@ -15,5 +15,6 @@ const [word, setWord] = useState<Promise<string | undefined> | string>("Carregan
         <h1 className="text-4xl font-black">{word}</h1>
     )
   })
+  Word.displayName = "Word"
 
 
