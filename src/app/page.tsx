@@ -12,6 +12,8 @@ import { SetStateAction, useState } from "react";
 
 
 
+
+
 export default function Home() {
   
   const [answer, setAnswer] = useState("");
@@ -27,7 +29,7 @@ export default function Home() {
      h-screen w-screen bg-gradient-to-r
       from-red-800 via-yellow-600 to-yellow-500">
       <div className="flex flex-col gap-10 items-center justify-center
-       bg-stone-900 w-3/5 h-3/5 rounded-lg">
+       bg-stone-900 w-[20rem] h-[20rem] rounded-lg">
 
         <p className="font-light">A palavra aleatória é:</p>
         
